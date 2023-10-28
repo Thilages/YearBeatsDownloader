@@ -5,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # can be obtained by creating a app in spotify developers
-client_id = "2f9867b0fdd147369ae3f14f776b6b3d"
-client_secret = "ef51775e13e740438949135afaba8a2c"
+client_id = "2f9867b0fdd147369"
+client_secret = "ef51775e13e74043894"
 
 # authenticating to the users account
 user = SpotifyOAuth(client_id=client_id,client_secret=client_secret,redirect_uri="https://example.com",scope="playlist-modify-private")
